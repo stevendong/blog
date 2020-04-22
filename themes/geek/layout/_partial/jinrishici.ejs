@@ -1,0 +1,8 @@
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<div class="jinrishici" id="jinrishici"></div>
+<script type="text/javascript">
+  jinrishici.load(function(result) {
+    var sentence = document.querySelector("#jinrishici")
+    sentence.innerHTML = result.data.content
+  });
+</script>
